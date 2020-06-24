@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VD10</title>
+    <script>
+        var products=newArray(2);
+        products[0]=newArray('Monitor','236.75');
+        products[1]=newArray('Keyboard','45.50');
+        document.write('<TABLEboder=1><TR><TH>NAME</TH><TH>Price</TH></TR>');
+        for(var i=0;i<products.length;i++)
+        {
+            document.write('<TR>');
+            for(var j=0;j<products[i].length;j++)
+            {
+                document.write('<TD>'+products[i][j]+'</TD>');
+            }
+            document.write('</TR>');
+        }
+        document.write('</TABLE>');
+    </script>
+</head>
+<body>
+
+</body>
+</html>
